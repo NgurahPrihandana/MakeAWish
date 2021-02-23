@@ -4,7 +4,7 @@ body, html {
 }
 
 nav {
-	box-shadow: 0px -20px 5px 20px #F79489;
+	border-bottom: 1px #F79489;
 }
 
 .f-poppins {
@@ -32,10 +32,18 @@ nav {
 	font-family: Poppins;
 }
 
-.banner {
-	height: 92.9vh;
+.banner .text-banner {
+	height: 48vh;
+	padding-top: 20vh;
 }
 
-.banner .text-banner {
-	height: 92.9vh;
+@media (max-width: 768px) {
+	.banner .img img {
+		display: none;
+	}
+
+	.card-flex {
+		display: flex;
+		flex-direction: column;
+	}
 }
