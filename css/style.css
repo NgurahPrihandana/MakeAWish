@@ -1,0 +1,41 @@
+body, html {
+	margin: 0;
+	font-family: Quicksand, Arial, helvetica, sans-serif;
+}
+
+nav {
+	box-shadow: 0px -20px 5px 20px #F79489;
+}
+
+.f-poppins {
+	font-family: Poppins;
+}
+
+.f-quicksand {
+	font-family: Quicksand;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-light {
+	font-weight: normal;
+}
+
+.btn-pink {
+	border-radius: 25px 0px 25px 0px;
+	background-color: #F79489;
+}
+
+.navbar-brand, .nav-item a {
+	font-family: Poppins;
+}
+
+.banner {
+	height: 92.9vh;
+}
+
+.banner .text-banner {
+	height: 92.9vh;
+}
