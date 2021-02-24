@@ -4,7 +4,7 @@ body, html {
 }
 
 nav {
-	border-bottom: 1px #F79489;
+	border-bottom: 1px solid #F79489;
 }
 
 .f-poppins {
@@ -23,8 +23,13 @@ nav {
 	font-weight: normal;
 }
 
+.bg-pink-secondary {
+	background-color: #FADCD9;
+}
+
 .btn-pink {
 	border-radius: 25px 0px 25px 0px;
+	width: 12rem;
 	background-color: #F79489;
 }
 
@@ -34,8 +39,41 @@ nav {
 
 .banner .text-banner {
 	height: 48vh;
-	padding-top: 20vh;
 }
+
+.card-flex .card {
+	border: none;
+ 	border-radius: 10px;
+	box-shadow: 1px 1px 20px 0px #dfdfdf;
+}
+
+.card-flex .card h5 {
+	font-weight: lighter;
+	font-size: .9rem;
+}
+
+/* btn-banner */
+
+/* end-btn-banner */
+.card-best-dress {
+	width: 75%;
+	margin: auto;
+	margin-top: -5rem;
+	background-color: #F9F1F0;
+}
+/* top-product */
+
+.card-best-dress-container {
+	box-shadow: 5px 5px 50px 0px #dfdfdf;
+}
+
+.top-product h1 {
+	font-size: 2rem;
+	font-variant: medium;
+}
+
+
+/* end-top-product */
 
 @media (max-width: 768px) {
 	.banner .img img {
@@ -45,5 +83,9 @@ nav {
 	.card-flex {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.card-best-dress {
+		width: 90%;
 	}
 }
