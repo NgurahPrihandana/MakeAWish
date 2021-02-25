@@ -19,60 +19,61 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-    <title>Homepage</title>
+    <title>Make A Wish - Homepage</title>
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Make A Wish</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item nav-link">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item nav-link">
-                <a class="nav-link" href="#">Products</a>
-                <div class="underline"></div>
-              </li>
-              <li class="nav-item nav-link">
-                <a class="nav-link" href="#">Service</a>
-                <div class="underline"></div>
-              </li>
-              <li class="nav-item nav-link">
-                <a class="nav-link" href="#">About Us</a>
-                <div class="underline"></div>
-              </li>
-              <li class="nav-item nav-link">
-                <a class="nav-link" href="#">Contact Us</a>
-                <div class="underline"></div>
-              </li>
+      <div class="container">
+        <a class="navbar-brand" href="#">Make A Wish</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-makeAwish" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item nav-link active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="products.html">Products</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="service.html">Service</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="#">About Us</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="#">Contact Us</a>
+              <div class="underline-bar"></div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav">
+                <li class="nav-item nav-link">
+                    <a href=""><img src="images/icon/instagram.svg" alt=""></a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href=""><img src="images/icon/facebook.svg" alt=""></a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href=""><img src="images/icon/twitter.svg" alt=""></a>
+                </li>
             </ul>
-            <form class="d-flex">
-              <ul class="navbar-nav">
-                  <li class="nav-item nav-link">
-                      <a href=""><img src="images/icon/instagram.svg" alt=""></a>
-                  </li>
-                  <li class="nav-item nav-link">
-                      <a href=""><img src="images/icon/facebook.svg" alt=""></a>
-                  </li>
-                  <li class="nav-item nav-link">
-                      <a href=""><img src="images/icon/twitter.svg" alt=""></a>
-                  </li>
-              </ul>
-            </form>
-          </div>
+          </form>
         </div>
-      </nav>
-    <!-- end-navbar -->
+      </div>
+    </nav>
+  <!-- end-navbar -->
 
     <div class="container">
 
       <!-- banner -->
-        <section class="banner">
+        <section class="banner mt-1">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-sm-12 d-flex flex-column align-items-center justify-content-center f-poppins">
@@ -121,7 +122,7 @@
                         </div>
                         <!-- end-card -->
                     </div>
-                    <div class="col-lg-4 img">
+                    <div class="col-lg-4 img d-flex align-items-end justify-content-end">
                       <img class="mt-4" src="images/banner-img.png" alt="">
                     </div>
                 </div>
@@ -131,7 +132,7 @@
   
       <!-- top-product -->
         <section class="top-product mt-5 text-center">
-          <h1 class="f-poppins">TOP PRODUCTS</h1>
+          <h1 class="f-poppins">Top Products</h1>
           <div class="row mt-5">
             <!--card-best-dress-->
             <div class="col-lg-6">
@@ -151,7 +152,7 @@
               </div>
             </div>
             <!-- end-card-best-dress -->
-            <div class="col-md-4 offset-md-1 col-sm-8 p-3 offset-sm-2 d-flex align-items-center">
+            <div class="col-md-4 offset-md-1 col-sm-8 p-3 offset-sm-2 d-flex align-items-center justify-content-center">
               <div class="card aurel-card">
                 <h5 class="f-poppins p-lg-3">Aurel</h5>
                 <img src="images/best-dress.png" class="card-img-top" alt="...">
@@ -209,11 +210,11 @@
 
         <section class="list-product container mt-3">
           <div class="row">
-            <div class="col-lg-4 col-md-6 mt-3">
+            <div class="col-lg-3 col-md-6 mt-3">
               <div class="card home-shadow-product" style="width: 100%;">
                 <img src="./images/product.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Lisa Tunic</h5>
                   <div class="d-flex justify-content-between">
                     <div class="price">$500</div>
                     <div class=""></div>
@@ -223,11 +224,11 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mt-3">
+            <div class="col-lg-3 col-md-6 mt-3">
               <div class="card home-shadow-product" style="width: 100%;">
                 <img src="./images/product.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Cardia Dress</h5>
                   <div class="d-flex justify-content-between">
                     <div class="price">$500</div>
                     <div class=""></div>
@@ -237,11 +238,25 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mt-3">
+            <div class="col-lg-3 col-md-6 mt-3">
               <div class="card home-shadow-product" style="width: 100%;">
                 <img src="./images/product.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Coral Jumpsuit</h5>
+                  <div class="d-flex justify-content-between">
+                    <div class="price">$500</div>
+                    <div class=""></div>
+                    <button class="btn btn-pink">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-3">
+              <div class="card home-shadow-product" style="width: 100%;">
+                <img src="./images/product.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Luna Skirt</h5>
                   <div class="d-flex justify-content-between">
                     <div class="price">$500</div>
                     <div class=""></div>
@@ -253,12 +268,13 @@
           </div>
 
           <div class="text-center mt-4 mb-4">
-            <button class="more-product">See More</button>
+            <a class="more-product" href="products.html">See More</a>
           </div>
         </section>
       <!-- end-deals-of-the-month -->
 
-      <section class="container mt-5">
+      <section class="container customer-review mt-5">
+        <h1 class="text-center pt-4 f-poppins">Customer Review</h1>
         <div class="row">
           <div class="col-lg-4 text-center">
             <article>
@@ -314,99 +330,83 @@
           
         </div>
       </section>
+      <!-- footer -->
+      <footer class="footer container mt-4 f-poppins">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Make A Wish</h1>
+
+          <h2>Contact</h2>
+
+          <address>
+            5534 Somewhere In. The World 22193-10212<br />
+
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          </address>
+        </div>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title" style="font-size: 1.1rem;">Home</h2>
+
+            <ul class="nav__ul" style="font-size: .9rem;">
+              <li>
+                <a href="#">Products</a>
+              </li>
+
+              <li>
+                <a href="#">Our Service</a>
+              </li>
+
+              <li>
+                <a href="#">About Us</a>
+              </li>
+
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <h2 class="nav__title" style="font-size: 1.1rem;">Be Our Friend</h2>
+
+            <ul class="nav__ul" style="font-size: .9rem;">
+              <li>
+                <img src="images/icon/location.svg" alt="" />
+                <a href="#">Denpasar, Bali</a>
+              </li>
+
+              <li>
+                <img src="images/icon/mail.svg" alt="" />
+                <a href="#">support@makeAwish.co.id</a>
+              </li>
+
+              <li>
+                <img src="images/icon/phone.svg" alt="" />
+                <a href="#">021-0000-1111</a>
+              </li>
+
+              <li>
+                <img src="images/icon/instagram.svg" alt="" />
+                <img src="images/icon/facebook.svg" alt="" />
+                <img src="images/icon/twitter.svg" alt="" />
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div
+          class="legal text-dark d-flex align-items-center justify-content-center"
+        style="border-top: 1px solid red;">
+          <p class="m-0 p-3">
+            &copy; 2021 by Make A Wish & Jack Garment. All rights reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- end-footer -->
+    
     </div>
 
-    <!-- footer -->
-    <footer class="footer container mt-4 f-poppins">
-      <div class="footer__addr">
-        <h1 class="footer__logo">Make A Wish</h1>
-            
-        <h2>Contact</h2>
-        
-        <address>
-          5534 Somewhere In. The World 22193-10212<br>
-              
-          <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
-        </address>
-      </div>
-      
-      <ul class="footer__nav">
-        <li class="nav__item">
-          <h2 class="nav__title">Media</h2>
-    
-          <ul class="nav__ul">
-            <li>
-              <a href="#">Online</a>
-            </li>
-    
-            <li>
-              <a href="#">Print</a>
-            </li>
-                
-            <li>
-              <a href="#">Alternative Ads</a>
-            </li>
-          </ul>
-        </li>
-        
-        <li class="nav__item nav__item--extra">
-          <h2 class="nav__title">Technology</h2>
-          
-          <ul class="nav__ul nav__ul--extra">
-            <li>
-              <a href="#">Hardware Design</a>
-            </li>
-            
-            <li>
-              <a href="#">Software Design</a>
-            </li>
-            
-            <li>
-              <a href="#">Digital Signage</a>
-            </li>
-            
-            <li>
-              <a href="#">Automation</a>
-            </li>
-            
-            <li>
-              <a href="#">Artificial Intelligence</a>
-            </li>
-            
-            <li>
-              <a href="#">IoT</a>
-            </li>
-          </ul>
-        </li>
-        
-        <li class="nav__item">
-          <h2 class="nav__title">Legal</h2>
-          
-          <ul class="nav__ul">
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-            
-            <li>
-              <a href="#">Terms of Use</a>
-            </li>
-            
-            <li>
-              <a href="#">Sitemap</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      
-      <div class="legal">
-        <p>&copy; 2019 Something. All rights reserved.</p>
-        
-        <div class="legal__links">
-          <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
-        </div>
-      </div>
-    </footer>
-    <!-- end-footer -->
     
     <script>
       $(".slider").owlCarousel({

@@ -1,117 +1,539 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
     <!-- Style.css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_cr.css">
-    <link rel="stylesheet" href="css/style_ts.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_cr.css" />
+    <link rel="stylesheet" href="css/style_ts.css" />
+    <link rel="stylesheet" href="css/season-card.css" />
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Quicksand&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
     <!-- Carousel -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
 
-    <title>Products</title>
-</head>
+    <title>Make A Wish - Products</title>
+  </head>
 
-<body>
+  <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Make A Wish</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                    <li class="nav-item nav-link">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item nav-link">
-                        <a class="nav-link active" href="#">Products</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item nav-link">
-                        <a class="nav-link" href="#">Service</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item nav-link">
-                        <a class="nav-link" href="#">About Us</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item nav-link">
-                        <a class="nav-link" href="#">Contact Us</a>
-                        <div class="underline"></div>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <ul class="navbar-nav">
-                        <li class="nav-item nav-link">
-                            <a href=""><img src="images/icon/instagram.svg" alt=""></a>
-                        </li>
-                        <li class="nav-item nav-link">
-                            <a href=""><img src="images/icon/facebook.svg" alt=""></a>
-                        </li>
-                        <li class="nav-item nav-link">
-                            <a href=""><img src="images/icon/twitter.svg" alt=""></a>
-                        </li>
-                    </ul>
-                </form>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">Make A Wish</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-makeAwish"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item nav-link">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link active">
+              <a class="nav-link" href="products.html">Products</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="service.html">Service</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="#">About Us</a>
+              <div class="underline-bar"></div>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="#">Contact Us</a>
+              <div class="underline-bar"></div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav">
+              <li class="nav-item nav-link">
+                <a href=""><img src="images/icon/instagram.svg" alt="" /></a>
+              </li>
+              <li class="nav-item nav-link">
+                <a href=""><img src="images/icon/facebook.svg" alt="" /></a>
+              </li>
+              <li class="nav-item nav-link">
+                <a href=""><img src="images/icon/twitter.svg" alt="" /></a>
+              </li>
+            </ul>
+          </form>
         </div>
+      </div>
     </nav>
     <!-- end-navbar -->
 
     <!-- container -->
-        <div class="container">
-            <!-- banner-product -->
-                <section class="product-banner d-flex align-items-center justify-content-center">
-                    <h1 class="f-poppins text-white">PRODUCT</h1>
-                </section>
-            <!-- end-banner -->
+    <div class="container mt-1">
+      <!-- banner-product -->
+      <section
+        class="product-banner d-flex align-items-center justify-content-center demo"
+        id="section05"
+      >
+        <h1 class="f-poppins text-white">PRODUCT</h1>
+        <a href="#section06"><span></span>Scroll</a>
+      </section>
+      <!-- end-banner -->
 
-            <!-- navigation -->
-                <p>Home > Product</p>
-            <!-- end-navigation -->
+      <!-- navigation -->
+      <div class="navigation-product mt-2">
+        <p>Home > Product</p>
+      </div>
+      <!-- end-navigation -->
 
-            <!-- search -->
-            <div class="search">
-                <form action="" class="text-center">
-                    <input type="text" placeholder="Search Here...">
-                </form>
+      <!-- search -->
+      <div class="search mt-5">
+        <form action="" class="text-center">
+          <input class="w-50" type="text" placeholder="Search Here..." />
+        </form>
+      </div>
+      <!-- end-search -->
+
+      <!-- product -->
+      <section class="list-product container mt-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Lisa Tunic</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
             </div>
-            <!-- end-search -->
+          </div>
 
-            <!-- product -->
-                
-            <!-- end-prduct -->
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Cardia Dress</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Coral Jumpsuit</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Luna Skirt</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Lisa Tunic</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Cardia Dress</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Coral Jumpsuit</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card home-shadow-product" style="width: 100%">
+              <img src="./images/product.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Luna Skirt</h5>
+                <div class="d-flex justify-content-between">
+                  <div class="price">$500</div>
+                  <div class=""></div>
+                  <button class="btn btn-pink">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        
+      </section>
+      <div class="container d-flex justify-content-center mt-4 mb-4">
+        <a
+        href=""
+        class="btn-detail-product btn-1-detail-product"
+      >
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%" />
+        </svg>
+        Load More
+      </a>
+      </div>
+      <!-- end-prduct -->
+
+      <!-- season -->
+      <section class="product-season">
+        <h1 class="text-center mt-5 text-bold">Season</h1>
+        <div class="row mt-4">
+          <div class="col-md-5">
+            <div class="season-card margin-season-card-responsive spring-card">
+              <div class="content">
+                <h2 class="title">SPRING</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href=""
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="season-card summer-card">
+              <div class="content">
+                <h2 class="title">SUMMER</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href="https://twitter.com/Dave_Conner"
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-5">
+            <div class="season-card margin-season-card-responsive fall-card">
+              <div class="content">
+                <h2 class="title">FALL</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href="https://twitter.com/Dave_Conner"
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="season-card winter-card">
+              <div class="content">
+                <h2 class="title">WINTER</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href="https://twitter.com/Dave_Conner"
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end-season -->
+
+      <!-- category -->
+      <section class="category">
+        <h1 class="text-center mt-5 text-bold">Category</h1>
+        <div class="row mt-4">
+          <div class="col-md-5">
+            <div class="season-card margin-season-card-responsive spring-card">
+              <div class="content">
+                <h2 class="title">SPRING</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href=""
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="season-card summer-card">
+              <div class="content">
+                <h2 class="title">SUMMER</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href="https://twitter.com/Dave_Conner"
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-5">
+            <div class="season-card margin-season-card-responsive fall-card">
+              <div class="content">
+                <h2 class="title">FALL</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href="https://twitter.com/Dave_Conner"
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="season-card winter-card">
+              <div class="content">
+                <h2 class="title">WINTER</h2>
+                <p class="copy">
+                  Check out all of these gorgeous mountain trips with beautiful
+                  views of, you guessed it, the mountains
+                </p>
+                <a
+                  href="https://twitter.com/Dave_Conner"
+                  class="btn-season btn-1"
+                >
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  See Product
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end-category -->
+
+      <!-- footer -->
+      <footer class="footer mt-4 f-poppins">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Make A Wish</h1>
+
+          <h2>Contact</h2>
+
+          <address>
+            5534 Somewhere In. The World 22193-10212<br />
+
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          </address>
+        </div>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title" style="font-size: 1.1rem;">Home</h2>
+
+            <ul class="nav__ul" style="font-size: .9rem;">
+              <li>
+                <a href="#">Products</a>
+              </li>
+
+              <li>
+                <a href="#">Our Service</a>
+              </li>
+
+              <li>
+                <a href="#">About Us</a>
+              </li>
+
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <h2 class="nav__title" style="font-size: 1.1rem;">Be Our Friend</h2>
+
+            <ul class="nav__ul" style="font-size: .9rem;">
+              <li>
+                <img src="images/icon/location.svg" alt="" />
+                <a href="#">Denpasar, Bali</a>
+              </li>
+
+              <li>
+                <img src="images/icon/mail.svg" alt="" />
+                <a href="#">support@makeAwish.co.id</a>
+              </li>
+
+              <li>
+                <img src="images/icon/phone.svg" alt="" />
+                <a href="#">021-0000-1111</a>
+              </li>
+
+              <li>
+                <img src="images/icon/instagram.svg" alt="" />
+                <img src="images/icon/facebook.svg" alt="" />
+                <img src="images/icon/twitter.svg" alt="" />
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div
+          class="legal text-dark d-flex align-items-center justify-content-center"
+        style="border-top: 1px solid red;">
+          <p class="m-0 p-3">
+            &copy; 2021 by Make A Wish & Jack Garment. All rights reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- end-footer -->
+    </div>
     <!-- end-container -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-</body>
-
+    <script>
+      $(function () {
+        $("a[href*=#]").on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            { scrollTop: $($(this).attr("href")).offset().top },
+            500,
+            "linear"
+          );
+        });
+      });
+    </script>
+  </body>
 </html>
