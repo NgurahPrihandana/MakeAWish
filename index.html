@@ -44,11 +44,11 @@
               <div class="underline-bar"></div>
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about-us.html">About Us</a>
               <div class="underline-bar"></div>
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
               <div class="underline-bar"></div>
             </li>
           </ul>
@@ -70,7 +70,7 @@
     </nav>
   <!-- end-navbar -->
 
-    <div class="container">
+    
 
       <!-- banner -->
         <section class="banner mt-1">
@@ -122,14 +122,14 @@
                         </div>
                         <!-- end-card -->
                     </div>
-                    <div class="col-lg-4 img d-flex align-items-end justify-content-end">
-                      <img class="mt-4" src="images/banner-img.png" alt="">
+                    <div class="col-lg-4 img d-flex align-items-center justify-content-center">
+
                     </div>
                 </div>
             </div>
         </section>
       <!-- end-banner -->
-  
+      <div class="container">
       <!-- top-product -->
         <section class="top-product mt-5 text-center">
           <h1 class="f-poppins">Top Products</h1>
@@ -208,7 +208,7 @@
 
         </section>
 
-        <section class="list-product container mt-3">
+        <section class="list-product container mt-5">
           <div class="row">
             <div class="col-lg-3 col-md-6 mt-3">
               <div class="card home-shadow-product" style="width: 100%;">
@@ -218,7 +218,7 @@
                   <div class="d-flex justify-content-between">
                     <div class="price">$500</div>
                     <div class=""></div>
-                    <button class="btn btn-pink">Buy Now</button>
+                    <a href="detail-product.html" class="btn btn-pink">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -267,8 +267,16 @@
             </div>
           </div>
 
-          <div class="text-center mt-4 mb-4">
-            <a class="more-product" href="products.html">See More</a>
+          <div class="text-center d-flex justify-content-center mt-4 mb-4">
+            <a
+        href="products.html"
+        class="btn-detail-product btn-1-detail-product"
+      >
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%" />
+        </svg>
+        See More
+      </a>
           </div>
         </section>
       <!-- end-deals-of-the-month -->
@@ -331,7 +339,7 @@
         </div>
       </section>
       <!-- footer -->
-      <footer class="footer container mt-4 f-poppins">
+      <footer class="footer container mt-4 pt-4 f-poppins">
         <div class="footer__addr">
           <h1 class="footer__logo">Make A Wish</h1>
 
