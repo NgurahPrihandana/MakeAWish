@@ -118,9 +118,6 @@ body, html {
 	height: 30vh;
 }
 
-.customer-review {
-	height: 50vh;
-}
 
 .customer-review article {
 	margin-left: 0;
@@ -558,7 +555,12 @@ body, html {
 	margin-top: -5rem;
 }
 
-.about-us-text-banner .col-lg-5 hr {
+.about-us-text-banner .card {
+	box-shadow: 5px 5px 25px rgba(186, 167, 167, 0.25);
+border-radius: 15px;
+}
+
+.about-us-text-banner .col-lg-6 hr {
 	width: 50%;
 	margin: auto;
 	border-bottom: 2px solid #F79489;
