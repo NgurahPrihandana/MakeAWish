@@ -26,7 +26,8 @@
        rel="stylesheet"
        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
      />
-
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Make A Wish - Service</title>
   </head>
   <body>
@@ -92,8 +93,8 @@
       <!-- container -->
       <div class="container mt-1">
         <!-- service-banner -->
-        <div class="service-banner">
-          
+        <div class="service-banner d-flex justify-content-center align-items-center">
+          <h1 class="f-poppins text-white">SERVICE</h1>
         </div>
         <!-- end-service-banner -->
 
@@ -103,6 +104,87 @@
       </div>
       <!-- end-navigation -->
 
+      <!-- content -->
+        <!-- season -->
+        <section class="product-season">
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="season-card margin-season-card-responsive spring-card" data-aos="fade-right">
+                <div class="content">
+                  <h2 class="title">Mass Production</h2>
+                  <p class="copy">
+                    Check out all of these gorgeous mountain trips with beautiful
+                    views of, you guessed it, the mountains
+                  </p>
+                  <a href="" class="btn-season btn-1">
+                    <svg>
+                      <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                    </svg>
+                    See Product
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-6">
+              <div class="season-card summer-card" data-aos="fade-left">
+                <div class="content">
+                  <h2 class="title">Sampling</h2>
+                  <p class="copy">
+                    Check out all of these gorgeous mountain trips with beautiful
+                    views of, you guessed it, the mountains
+                  </p>
+                  <a href="https://twitter.com/Dave_Conner" class="btn-season btn-1">
+                    <svg>
+                      <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                    </svg>
+                    See Product
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="season-card margin-season-card-responsive fall-card" data-aos="fade-right">
+                <div class="content">
+                  <h2 class="title">Long Term Partnership</h2>
+                  <p class="copy">
+                    Check out all of these gorgeous mountain trips with beautiful
+                    views of, you guessed it, the mountains
+                  </p>
+                  <a href="https://twitter.com/Dave_Conner" class="btn-season btn-1">
+                    <svg>
+                      <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                    </svg>
+                    See Product
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-6">
+              <div class="season-card winter-card" data-aos="fade-left">
+                <div class="content">
+                  <h2 class="title">Consultant</h2>
+                  <p class="copy">
+                    Check out all of these gorgeous mountain trips with beautiful
+                    views of, you guessed it, the mountains
+                  </p>
+                  <a href="https://twitter.com/Dave_Conner" class="btn-season btn-1">
+                    <svg>
+                      <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                    </svg>
+                    See Product
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end-season -->
+      <!-- end-content -->
       <!-- footer -->
       <footer class="footer mt-4 f-poppins">
         <div class="footer__addr">
@@ -180,9 +262,13 @@
       </div>
       <!-- end-container -->
 
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

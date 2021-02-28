@@ -1,346 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Style.css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/style_cr.css" />
-    <link rel="stylesheet" href="css/style_ts.css" />
-    <link rel="stylesheet" href="css/season-card.css" />
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Quicksand&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Carousel -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <title>Make A Wish - About Us</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Make A Wish</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse navbar-makeAwish"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+  <!-- Style.css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style_cr.css" />
+  <link rel="stylesheet" href="css/style_ts.css" />
+  <link rel="stylesheet" href="css/season-card.css" />
+  <link rel="stylesheet" href="css/css-card-oke.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Quicksand&display=swap"
+    rel="stylesheet" />
+  <!-- Carousel -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <title>Make A Wish - About Us</title>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="about-us">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Make A Wish</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-makeAwish" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item nav-link">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <div class="underline-bar"></div>
+          </li>
+          <li class="nav-item nav-link">
+            <a class="nav-link" href="products.html">Products</a>
+            <div class="underline-bar"></div>
+          </li>
+          <li class="nav-item nav-link">
+            <a class="nav-link" href="service.html">Service</a>
+            <div class="underline-bar"></div>
+          </li>
+          <li class="nav-item nav-link active">
+            <a class="nav-link" href="about-us.html">About Us</a>
+            <div class="underline-bar"></div>
+          </li>
+          <li class="nav-item nav-link">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+            <div class="underline-bar"></div>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <ul class="navbar-nav">
             <li class="nav-item nav-link">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              <div class="underline-bar"></div>
+              <a href=""><img src="images/icon/instagram.svg" alt="" /></a>
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link" href="products.html">Products</a>
-              <div class="underline-bar"></div>
+              <a href=""><img src="images/icon/facebook.svg" alt="" /></a>
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link" href="service.html">Service</a>
-              <div class="underline-bar"></div>
-            </li>
-            <li class="nav-item nav-link active">
-              <a class="nav-link" href="about-us.html">About Us</a>
-              <div class="underline-bar"></div>
-            </li>
-            <li class="nav-item nav-link">
-              <a class="nav-link" href="contact-us.html">Contact Us</a>
-              <div class="underline-bar"></div>
+              <a href=""><img src="images/icon/twitter.svg" alt="" /></a>
             </li>
           </ul>
-          <form class="d-flex">
-            <ul class="navbar-nav">
-              <li class="nav-item nav-link">
-                <a href=""><img src="images/icon/instagram.svg" alt="" /></a>
-              </li>
-              <li class="nav-item nav-link">
-                <a href=""><img src="images/icon/facebook.svg" alt="" /></a>
-              </li>
-              <li class="nav-item nav-link">
-                <a href=""><img src="images/icon/twitter.svg" alt="" /></a>
-              </li>
-            </ul>
-          </form>
-        </div>
+        </form>
       </div>
-    </nav>
-    <!-- end-navbar -->
+    </div>
+  </nav>
+  <!-- end-navbar -->
 
-    <!-- container -->
-    <div class="container">
-      <section class="abouts-us-banner-container">
-        <!-- about-us-banner -->
-        <div
-          class="about-us-banner d-flex align-items-center justify-content-center"
-        >
-          <h1 class="text-white text-bold">ABOUT US</h1>
-        </div>
-        <!-- end-about-us-banner -->
-        <!-- about-us-text-banner -->
-        <div class="row about-us-text-banner">
-          <div class="col-lg-6">
-            <div class="card px-4">
-              <h2 class="text-center f-poppins mt-3">About Make A Wish Shop</h2>
-              <hr />
-              <p class="f-quicksand">
-                At Make A Wish Shop, we believe in one thing: YOU <br /><br />
+  <!-- container -->
+  <div class="container">
 
-                Make A Wish Shop believes that women have extraordinary
-                abilities, are competent, and able to do anything. <br /><br />
+    <section class="abouts-us-banner-container">
+      <!-- about-us-banner -->
+      <div class="about-us-banner d-flex align-items-center justify-content-center">
+        <h1 class="text-white text-bold">ABOUT US</h1>
+      </div>
+      <!-- end-about-us-banner -->
+      <!-- about-us-text-banner -->
+    
+      <!-- end-about-us-text-banner -->
+    </section>
 
-                For us, an attractive dress is a means to achieve the goal,
-                which is when a woman feels comfortable, then whatever you wear
-                will look amazing. The most important thing is how a woman can
-                appear more confident, dare to display her personality, and
-                shine in all aspects. <br /><br />
-
-                Make A Wish Shop is here to help you dress and be yourself -
-                unabashed, uninhibited, undeniably, you.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card px-4">
-              <h2 class="text-center f-poppins mt-3">About Jack Garment</h2>
-              <hr />
-              <p class="f-quicksand">
-                In 2014, Jack Garment was founded as a bridge between fashion
-                brands and garment factories. No matter where you are at in your
-                business we are here to help. <br /><br />
-
-                Established brands, that have the capacity to manufacture
-                overseas, have access to a trusted partner that has the
-                expertise for on-time, to spec deliveries while minimizing
-                costs. We provide both custom manufacturing solutions and
-                private label products saving time and money. <br /><br />
-
-                Our mission is to make it easier for any size brand to sell
-                responsibly made products. Together we can do more good.
-                <br /><br />
-              </p>
-            </div>
-          </div>
-          <!-- <div class="col-lg-6">
-                <h2 class="text-center">About Jack Garment</h2>
-                <hr />
-                <p>
-                  In 2014, Jack Garment was founded as a bridge between fashion brands
-                  and garment factories. No matter where you are at in your business
-                  we are here to help. <br /><br />
-      
-                  Established brands, that have the capacity to manufacture overseas,
-                  have access to a trusted partner that has the expertise for on-time,
-                  to spec deliveries while minimizing costs. We provide both custom
-                  manufacturing solutions and private label products saving time and
-                  money. <br /><br />
-      
-                  Our mission is to make it easier for any size brand to sell
-                  responsibly made products. <br /><br />
-      
-                  Together we can do more good. <br /><br />
-                </p>
-              </div> -->
-        </div>
-        <!-- end-about-us-text-banner -->
-      </section>
-
-      <!-- our-location -->
-      <section class="our-location mt-5">
-        <h1 class="text-center pt-4 f-poppins">About Our Place</h1>
-        <div class="row pt-3 px-3">
-          <div class="col-md-6">
-            <img src="images/make-a-wish.png" width="100%" alt="" />
-          </div>
-          <div class="col-md-6 d-flex flex-column justify-content-center">
-            <h3 class="f-poppins">Make A Wish</h3>
-            <p class="f-quicksand">
-              Make A Wish is our shop located at Basangkasa Street. The location
-              is very strategic, namely in the kuta area. Kuta area is an area that is very easily accessible, the area is also close to other shops so you can easily compare how the quality of our clothes is better than others. Please think about coming if you are looking for clothes.
-            </p>
-          </div>
-        </div>
-        <div class="row pt-3 px-3 about-us-column-reverse">
-          <div class="col-lg-6 d-flex flex-column justify-content-center">
-            <h3 class="f-poppins">Jack Garment</h3>
-            <p class="f-quicksand">
-              Jack Garment is located in Sumandang 3 C no 8, Batubulan, Gianyar
-              Bali. Some of our worker work there to check the product quality
-              and prepare it for shipment. While our tailors can work from home, or come to our garments, we have a very large team, so they can accommodate many orders at once, we make it easy for any shop owner who wants to outsource their production to other places.
-            </p>
-          </div>
-          <div class="col-lg-6">
-            <img src="images/jack-garment.png" width="100%" alt="" />
-          </div>
-        </div>
+    <section>
+        <div class="row about-us-text-banner mx-md-4" style="margin-top: -9rem;">
+          <div class="col-lg-6 mt-5" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card px-3">
+                    <h2 class="text-center f-poppins mt-3">About Make A Wish Shop</h2>
+                    <hr />
+                    <p class="f-quicksand">
+                      At Make A Wish Shop, we believe in one thing: YOU <br />
+                      <br />
         
-      </section>
-      <!-- end-our-location -->
-      <!-- our-founder -->
-      <section class="our-founder mt-5">
-        <h1 class="text-center f-poppins">Our Founder</h1>
-        <div class="row mt-5">
-          <div class="col-md-6 col-sm-12">
-            <div class="container-card-our-founder">
-              <!-- Normal Demo-->
-              <div class="column">
-                <!-- Post-->
-                <div class="post-module">
-                  <!-- Thumbnail-->
-                  <div class="thumbnail">
-                    <img
-                      src="images/founder-1.png" 
-                    />
-                  </div>
-                  <!-- Post Content-->
-                  <div class="post-content">
-                    <h1 class="title f-poppins">Gusti Ayu</h1>
-                    <h2 class="sub_title f-quicksand">The Founder</h2>
-                    <p class="description f-quicksand">
-                      Gusti Ayu is the founder of Make A Wish and Jack Garment, this business started from Gusti Ayu's desire to express her hobby in selling with the support of her husband, Gusti Ngurah.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="container-card-our-founder">
-              <!-- Normal Demo-->
-              <div class="column">
-                <!-- Post-->
-                <div class="post-module">
-                  <!-- Thumbnail-->
-                  <div class="thumbnail">
-                    <img
-                      src="images/founder-2.png" 
-                    />
-                  </div>
-                  <!-- Post Content-->
-                  <div class="post-content">
-                    <h1 class="title f-poppins">Gusti Ngurah</h1>
-                    <h2 class="sub_title f-quicksand">The Co-Founder</h2>
-                    <p class="description f-quicksand">
-                      Gusti Ngurah is the Co-Founder of Make A Wish and Jack Garment, Gusti Ngurah spends time between work to help with his wife's business, until he finally quit working to help full time when their business has grown.
+                      Make A Wish Shop believes that women have extraordinary abilities, are competent, and able to do anything.
+                      <br />
+                      <br />
+        
+                      For us, an attractive dress is a means to achieve the goal, which is when a woman feels comfortable, then
+                      whatever you wear will look amazing. The most important thing is how a woman can appear more
+                      confident, dare to display her personality, and shine in all aspects. <br />
+                      <br />
+        
+                      Make A Wish Shop is here to help you dress and be yourself - unabashed, uninhibited, undeniably, you.
                     </p>
                   </div>
                 </div>
+                <div class="col-lg-6 mt-5" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card px-3">
+                    <h2 class="text-center f-poppins mt-3">About Make A Wish Shop</h2>
+                    <hr />
+                    <p class="f-quicksand">
+                      At Make A Wish Shop, we believe in one thing: YOU <br />
+                      <br />
+                
+                      Make A Wish Shop believes that women have extraordinary abilities, are competent, and able to do anything.
+                      <br />
+                      <br />
+                
+                      For us, an attractive dress is a means to achieve the goal, which is when a woman feels comfortable, then
+                      whatever you wear will look amazing. The most important thing is how a woman can appear more
+                      confident, dare to display her personality, and shine in all aspects. <br />
+                      <br />
+                
+                      Make A Wish Shop is here to help you dress and be yourself - unabashed, uninhibited, undeniably, you.
+                    </p>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- our-location -->
+    <section class="our-location mt-5">
+      <h1 class="text-center pt-4 f-poppins" data-aos="fade-in">About Our Place</h1>
+      <div class="row pt-3 px-3">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+          <img src="images/make-a-wish.png" width="100%" alt="" />
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-left" data-aos-delay="100">
+          <h3 class="f-poppins">Make A Wish</h3>
+          <p class="f-quicksand">
+            Make A Wish is our shop located at Basangkasa Street. The location is very strategic, namely in the kuta
+            area. Kuta area is an area that is very easily accessible, the area is also close to other shops so you can
+            easily compare how the quality of our clothes is better than others. Please think about coming if you are
+            looking for clothes.
+          </p>
+        </div>
+      </div>
+      <div class="row pt-3 px-3 about-us-column-reverse">
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-delay="100">
+          <h3 class="f-poppins">Jack Garment</h3>
+          <p class="f-quicksand">
+            Jack Garment is located in Sumandang 3 C no 8, Batubulan, Gianyar Bali. Some of our worker work there to
+            check the product quality and prepare it for shipment. While our tailors can work from home, or come to our
+            garments, we have a very large team, so they can accommodate many orders at once, we make it easy for any
+            shop owner who wants to outsource their production to other places.
+          </p>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+          <img src="images/jack-garment.png" width="100%" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end-our-location -->
+    <!-- our-founder -->
+    <section class="our-founder mt-5">
+      <h1 class="text-center f-poppins">Our Founder</h1>
+      <div class="kontainer">
+        <div class="row mt-5 p-desktop">
+          <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
+            <div class="column">
+              <!-- Post-->
+              <div class="post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail"><img src="./images/founder-1.png" /></div>
+
+                <!-- Post Content-->
+                <div class="post-content">
+                  <h1 class="title">Gusti Ayu</h1>
+                  <h2 class="sub_title">Founder</h2>
+                  <p class="description" style="display: none; height: 100px; opacity: 1;">
+                    Gusti Ayu is the founder of Make A Wish and Jack Garment, this business started from Gusti Ayu's desire to express her
+                    hobby in selling with the support of her husband, Gusti Ngurah.
+                  </p>
+                  <div class="post-meta">
+                    <span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i
+                        class="fa fa-comments"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
+            <div class="column">
+              <!-- Post-->
+              <div class="post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail"><img src="./images/founder-2.png" /></div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <h1 class="title">Gusti Ngurah</h1>
+                  <h2 class="sub_title">Co-Founder</h2>
+                  <p class="description" style="display: none; height: 100px; opacity: 1;">
+                    Gusti Ngurah is the Co-Founder of Make A Wish and Jack Garment, Gusti Ngurah spends time between work to help with his
+                    wife's business, until he finally quit working to help full time when their business has grown.
+                  </p>
+                  <div class="post-meta">
+                    <span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i
+                        class="fa fa-comments"></i></span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- end-our-founder -->
+      </div>
+    </section>
+    <!-- end-our-founder -->
 
-      <!-- our-goal -->
-      <section class="our-goal mt-5">
-        <h1 class="text-center pt-4 f-poppins">Our Goal</h1>
-        <div class="row row-cols-1 row-col-md-3 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card h-100 active">
-              <img src="images/icon/time.svg" class=" m-auto mt-4" width="23%" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center f-poppins">Always In Time</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="images/icon/medal.svg" class=" m-auto mt-4" width="20%" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center f-poppins">Neat and Clean</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="images/icon/careful.svg" class="m-auto mt-4" width="28%" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center f-poppins">Careful</h5>
-              </div>
+    <!-- our-goal -->
+    <section class="our-goal mt-5">
+      <h1 class="text-center pt-4 f-poppins">Our Goal</h1>
+      <div class="kontainer">
+      <div class="row  g-4">
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="card h-100 active">
+            <img src="images/icon/time.svg" class="m-auto mt-4" width="23%" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center f-poppins">Always In Time</h5>
             </div>
           </div>
         </div>
-      </section>
-      <!-- end-our-goal -->
-
-      <!-- footer -->
+        <div class="col-lg-4">
+          <div class="card h-100" data-aos="fade-up">
+            <img src="images/icon/medal.svg" class="m-auto mt-4" width="20%" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center f-poppins">Neat and Clean</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100" data-aos="fade-left">
+            <img src="images/icon/careful.svg" class="m-auto mt-4" width="28%" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center f-poppins">Careful</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- end-our-goal -->
+    <br><br><br><br><br>
+    <!-- footer -->
     <footer class="footer mt-4 f-poppins">
       <div class="footer__addr">
         <h1 class="footer__logo">Make A Wish</h1>
-    
+
         <h2>Contact</h2>
-    
+
         <address>
           5534 Somewhere In. The World 22193-10212<br />
-    
+
           <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
         </address>
       </div>
-    
+
       <ul class="footer__nav">
         <li class="nav__item">
           <h2 class="nav__title" style="font-size: 1.1rem;">Home</h2>
-    
-          <ul class="nav__ul" style="font-size: .9rem;">
+
+          <ul class="nav__ul" style="font-size: 0.9rem;">
             <li>
               <a href="#">Products</a>
             </li>
-    
+
             <li>
               <a href="#">Our Service</a>
             </li>
-    
+
             <li>
               <a href="#">About Us</a>
             </li>
-    
+
             <li>
               <a href="#">Contact Us</a>
             </li>
           </ul>
         </li>
-    
+
         <li class="nav__item">
           <h2 class="nav__title" style="font-size: 1.1rem;">Be Our Friend</h2>
-    
-          <ul class="nav__ul" style="font-size: .9rem;">
+
+          <ul class="nav__ul" style="font-size: 0.9rem;">
             <li>
               <img src="images/icon/location.svg" alt="" />
               <a href="#">Denpasar, Bali</a>
             </li>
-    
+
             <li>
               <img src="images/icon/mail.svg" alt="" />
               <a href="#">support@makeAwish.co.id</a>
             </li>
-    
+
             <li>
               <img src="images/icon/phone.svg" alt="" />
               <a href="#">021-0000-1111</a>
             </li>
-    
+
             <li>
               <img src="images/icon/instagram.svg" alt="" />
               <img src="images/icon/facebook.svg" alt="" />
@@ -349,7 +325,7 @@
           </ul>
         </li>
       </ul>
-    
+
       <div class="legal text-dark d-flex align-items-center justify-content-center" style="border-top: 1px solid red;">
         <p class="m-0 p-3">
           &copy; 2021 by Make A Wish & Jack Garment. All rights reserved.
@@ -357,27 +333,28 @@
       </div>
     </footer>
     <!-- end-footer -->
-    </div>
-    <!-- end-container -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(window).load(function () {
-        $(".post-module").hover(function () {
-          $(this).find(".description").stop().animate(
-            {
-              height: "toggle",
-              opacity: "toggle",
-            },
-            300
-          );
-        });
+  </div>
+  <!-- end-container -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+    $(window).load(function () {
+      $(".post-module").hover(function () {
+        $(this).find(".description").stop().animate(
+          {
+            height: "toggle",
+            opacity: "toggle",
+          },
+          300
+        );
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
